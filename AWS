@@ -1,0 +1,8 @@
+sudo apt update -y 
+sudo apt -y upgrade 
+sudo apt install apache2
+sudo  systemctl start apache2
+sudo  systemctl enable apache2
+sudo  systemctl status apache2
+#to make changes on apache server website
+sudo nano \var\www\html\index.html 
